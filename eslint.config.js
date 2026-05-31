@@ -21,7 +21,7 @@ export default [
       },
     },
   },
-  reactPlugin.configs.flat.browser,
+  reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat["jsx-runtime"],
   reactHooks.configs.flat.recommended,
 ];
