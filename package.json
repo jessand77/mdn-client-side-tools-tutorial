@@ -1,0 +1,32 @@
+{
+  "name": "mdn-client-side-tools-tutorial",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "author": "Jessica Sandler",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
+    "vite": "^8.0.14"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.100.14",
+    "plotly.js-dist-min": "^3.5.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
